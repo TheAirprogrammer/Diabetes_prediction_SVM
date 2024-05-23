@@ -17,6 +17,7 @@ app.add_middleware(
 )
 
 
+
 class model_input(BaseModel):
     Pregnancies : int
     Glucose : int
