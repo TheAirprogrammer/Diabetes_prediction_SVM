@@ -20,9 +20,14 @@ app = FastAPI()
 
 # Mount the static files directory
 app.mount("/static", StaticFiles(directory=STATIC_FILES_PATH), name="static")
+MODEL_PATH=os.path.join(current_dir, 'api')
+print("smodel path:", MODEL_PATH)
+
+
 
 # Load the model
-model = joblib.load(r'C:\Diabetes_prediction_SVM\api\Diabetes_model.joblib')
+model = joblib.load(os.path.join(MODEL_PATH, "Diabetes_model.joblib"), "r")
+
 
 class PredictionRequest(BaseModel):
     glucose_level: float
