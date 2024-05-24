@@ -1,7 +1,9 @@
-STATIC_FILES_PATH=os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'webpage', 'static'))
-TEMPLATES_PATH=os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'webpage', 'templates'))
-MODEL_PATH=api/Diabetes_model.joblib
-
+import os
+from fastapi import FastAPI, HTTPException, Request
+from fastapi.staticfiles import StaticFiles
+from pydantic import BaseModel
+from fastapi.responses import HTMLResponse
+import joblib
 
 
 # Get the absolute path of the current Python script
