@@ -1,6 +1,6 @@
 # Diabetes Detection using Support Vector Machine (SVM)
 
-![Diabetes Detection](webpage/images/Screenshot(297).png)
+![Diabetes Detection](webpage/images/Screenshot%20(297).png)
 
 ## Project Description
 
@@ -49,8 +49,9 @@ The dataset used for training the model is the Pima Indians Diabetes Database, w
 - Age
 - Outcome
 
-Sample data:
-![Directory Structure](webpage/images/Screenshot%20(295).png)
+##Sample data:
+![Directory Structure](webpage/images/Screenshot%20(296).png)
+
 
 
 ## Results
