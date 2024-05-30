@@ -50,7 +50,8 @@ The dataset used for training the model is the Pima Indians Diabetes Database, w
 - Outcome
 
 Sample data:
-![File Structure](webpage/images/Screenshot(296).png)
+![Directory Structure](webpage/images/Screenshot%20(295).png)
+
 
 ## Results
 
