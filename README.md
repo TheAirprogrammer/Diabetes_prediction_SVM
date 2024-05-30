@@ -1,6 +1,6 @@
 # Diabetes Detection using Support Vector Machine (SVM)
 
-![Diabetes Detection](webpage/images/diabetes_detection_banner.png)
+![Diabetes Detection](webpage/images/Screenshot(295).png)
 
 ## Project Description
 
@@ -19,36 +19,7 @@ This project is a web-based application designed to detect diabetes using a Supp
 - **Testing Accuracy:** 77.27%
 
 ## File Structure
-DIABETES_PREDICTION_SVM
-│   .env
-│   main.py
-│   Procfile
-├───api
-│   │   diabetes_api.py
-│   │   Diabetes_model.joblib
-│   └───__pycache__
-├───data
-│       diabetes.csv
-├───models
-│       Diabetes_decision_tree_model.pkl
-│       Diabetes_model.joblib
-│       Diabetes_neural_network_model.pkl
-│       Diabetes_random_forest_model.pkl
-│       Diabetes_xgboost_tuned_model.pkl
-├───notebook
-│       Blood_suagar_prediction_model.py
-│       Blood_sugar_prediction_V2.py
-│       Decision_tree_model.py
-│       Gradient_boosting_model.py
-│       neural_network_model.py
-│       Project_3_Diabetes_Prediction.ipynb
-│       Random_forest_model.py
-├───webpage
-│   ├───images
-│   ├───intlTelInput
-│   ├───static
-│   └───templates
-└───__pycache__
+![File Structure](webpage/images/Screenshot(295).png)
 
 ## Usage
 1. **Fill in the medical data in the provided form.**
@@ -79,11 +50,7 @@ The dataset used for training the model is the Pima Indians Diabetes Database, w
 - Outcome
 
 Sample data:
-Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age,Outcome
-6,148,72,35,0,33.6,0.627,50,1
-1,85,66,29,0,26.6,0.351,31,0
-8,183,64,0,0,23.3,0.672,32,1
-1,89,66,23,94,28.1,0.167,21,0
+![File Structure](webpage/images/Screenshot(296).png)
 
 ## Results
 
