@@ -1,6 +1,6 @@
 # Diabetes Detection using Support Vector Machine (SVM)
 
-![Diabetes Detection](webpage/images/Screenshot(295).png)
+![Diabetes Detection](webpage/images/Screenshot(297).png)
 
 ## Project Description
 
