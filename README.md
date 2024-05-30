@@ -19,7 +19,7 @@ This project is a web-based application designed to detect diabetes using a Supp
 - **Testing Accuracy:** 77.27%
 
 ## File Structure
-![File Structure](webpage/images/Screenshot(295).png)
+![File Structure](webpage/images/Screenshot%20(295).png)
 
 ## Usage
 1. **Fill in the medical data in the provided form.**
